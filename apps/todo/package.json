@@ -1,0 +1,26 @@
+{
+  "name": "@yu/todo",
+  "description": "Example of using Vite in a TS monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "~4.4.0",
+    "rimraf": "~6.0.0",
+    "typescript": "~5.8.0",
+    "vite-tsconfig-paths": "~5.1.0",
+    "vite": "~6.3.0"
+  }
+}

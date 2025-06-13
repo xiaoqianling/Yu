@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@Yu/components/*": ["packages/components/src/*"],
+      "@Yu/*": ["packages/*/src"]
+    },
+    "noEmit": true
+  }
+}
