@@ -1,5 +1,5 @@
 {
-  "name": "@yu/todo",
+  "name": "vite-example",
   "description": "Example of using Vite in a TS monorepo",
   "private": true,
   "version": "1.0.0",
@@ -11,8 +11,11 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "@yu/components": "workspace:*",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.1.10"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
@@ -20,7 +23,7 @@
     "@vitejs/plugin-react": "~4.4.0",
     "rimraf": "~6.0.0",
     "typescript": "~5.8.0",
-    "vite-tsconfig-paths": "~5.1.0",
-    "vite": "~6.3.0"
+    "vite": "~6.3.0",
+    "vite-tsconfig-paths": "~5.1.0"
   }
 }
